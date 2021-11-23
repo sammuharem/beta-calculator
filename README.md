@@ -43,6 +43,8 @@ United States | ^GSPC for S&P500 | N/A, 'AAPL'
 
 List of all indexes: https://finance.yahoo.com/world-indices
 
+Typically beta is adjusted to better estimate the security's future beta. Typically, betas are mean-reverting and will approach to the market value of 1.0 overtime. Typically beta will be adjusted once in practice.
+
 ## Required Libraries ##
 * datetime
 * dateutil
