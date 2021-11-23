@@ -1,10 +1,10 @@
 import datetime
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas_datareader.data as web
-from scipy import stats
 from dateutil.relativedelta import relativedelta
 from itertools import cycle
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas_datareader.data as web
+from scipy import stats
 
 def downloadData(ticker):
     start, end = datetime.datetime.now() - relativedelta(years=5), datetime.datetime.now()
@@ -53,7 +53,7 @@ def subPlot(title, x1, y1, colour, rD1, i):
     ax.spines['right'].set_color('none')
     ax.spines['top'].set_color('none')
 
-def beta(tickers, adjusted = 0, market = '^GSPC'):
+def beta(tickers, market = '^GSPC', adjusted = 0,):
     colours = cycle(['b','g','r','c','m','y'])
     market = downloadData(market)
     for ticker in tickers:
