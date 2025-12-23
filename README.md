@@ -55,7 +55,7 @@ Typically beta is adjusted to better estimate the security's future beta. Typica
 * scipy
 
 ## Related Projects ##
-Binomial Option Pricing Calculator: https://github.com/sammuhrai/binomial_option_pricing_calculator
+Binomial Option Pricing Calculator: binomial_option_pricing_calculator
 
 ## Disclaimer ##
 Script is for educational purposes and is not to be taken as financial advice.
